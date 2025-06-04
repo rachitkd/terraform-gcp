@@ -1,7 +1,3 @@
-resource "google_storage_bucket" "aparna-resource" {
-  name          = "aparna-bucket"
-  location      = "US-CENTRAL1"
-  force_destroy = true
-
-  public_access_prevention = "enforced"
-}
+resource "google_storage_bucket" "resource-aparna" {
+  name          = "rachit-bucker"
+  location      = "us-central1"
