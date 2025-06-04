@@ -1,3 +1,3 @@
 resource "google_storage_bucket" "resource-aparna" {
-  name          = "rachit-bucker"
+  name          = "rachit-bucket"
   location      = "us-central1"
