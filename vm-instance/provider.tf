@@ -8,8 +8,5 @@ terraform {
 }
 
 provider "google" {
-Project = "red-abstraction-397916"
-Region = "us-central1"
-Zone = "us-central1-f"
-Credentials = "red-abstraction-397916-79694a56a856.json"
+
 }
