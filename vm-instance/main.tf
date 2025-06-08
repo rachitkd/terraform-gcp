@@ -1,4 +1,4 @@
-resource "google_compute_instance" "default" {
+resource "google_compute_instance" "divisha-instance" {
   name         = "aparna-vm-01"
   machine_type = "e2-small"
   zone         = "us-central1-f"
