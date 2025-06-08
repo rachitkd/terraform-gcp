@@ -8,5 +8,6 @@ terraform {
 }
 
 provider "google" {
+  project = "red-abstraction-397916"
 
 }
