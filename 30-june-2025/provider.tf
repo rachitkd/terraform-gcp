@@ -7,9 +7,10 @@ terraform {
     }
 }
 
-provider "google"
-#Configuration options
+provider "google" {
+    #Configuration options
     project = "red-abstraction-397916"
     region = "us-central1"
     zone = "us-central1-b"
     credentials = "red-abstraction-397916-79694a56a856.json"
+}
